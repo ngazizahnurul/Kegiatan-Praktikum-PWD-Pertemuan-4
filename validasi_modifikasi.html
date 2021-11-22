@@ -1,0 +1,44 @@
+<html >
+
+<head>
+    <style>
+        .error{color:#FF0000;}
+    </style>
+</head>
+<body>
+    <h2>Posting Komentar</h2>
+    <p><span class="error">*Harus diisi.</span></p>
+    <form method="post" action="tampil.php">
+    <table>
+        <tr>
+            <td>Nama :</td>
+            <td><input type="text" name="nama" size="25" manglength="50">
+        </td>
+        </tr>
+        <tr>
+            <td>E-mail :</td>
+            <td><input type="text" name="email" size="25" manglength="50">
+        </td>
+        </tr>
+        <tr>
+            <td>Website :</td>
+            <td><input type="text" name="website" size="25" manglength="50">
+        </td>
+        </tr>
+        <tr>
+            <td>Komentar :</td>
+            <td><textarea name = "comment" rows="5" cols="40"></textarea>
+        </td>
+        </tr>
+        <tr>
+            <td>Gender :</td>
+            <td>
+                <input type="radio" name="gender" value="L">Laki-laki
+                <input type="radio" name="gender" value="P">Perempuan
+        </td>
+        </tr>
+        <td>
+        <input type="submit" name="submit" value="submit">
+    </td>
+</body>
+</html>
